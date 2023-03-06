@@ -68,7 +68,7 @@ const startGame = () => {
     active = nextActive
 
     console.log(nextActive)
-    console.log('game started')
+    
 
     timer = setTimeout(startGame, pace)
 
