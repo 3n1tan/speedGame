@@ -33,8 +33,8 @@ body {
 .circle {
     background-color: rgb(1, 28, 28);
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,5 +114,37 @@ button {
         height: auto;
     }
 
+    .circle {
+        background-color: rgb(1, 28, 28);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        pointer-events: none;
+    }
+
+
+}
+
+@media (max-width: 1024px){
+    .circle {
+        background-color: rgb(1, 28, 28);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        pointer-events: none;
+    }
+
+    .container {
+        position: relative;
+        left: 1vw;
+    }
 
 }
